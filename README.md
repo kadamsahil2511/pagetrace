@@ -1,4 +1,6 @@
-# PDF RAG: retrieval, reranking, and cited local answers
+# PageTrace
+
+**PDF retrieval, reranking, and cited local answers.**
 
 An offline-capable, single-document question-answering project built to expose the decisions behind retrieval-augmented generation (RAG). It has two working retrieval paths: a small FAISS pipeline for inspecting embeddings and matches, and a Chroma pipeline that retrieves more candidates and reranks them before asking a local Ollama model to answer. The code is intentionally CLI-first so the ingestion, retrieval, and generation stages are visible.
 
