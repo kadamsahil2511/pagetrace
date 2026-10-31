@@ -1,0 +1,9 @@
+einops
+faiss-cpu
+chromadb==1.5.9
+langchain-text-splitters
+numpy
+pypdf
+sentence-transformers==3.3.0
+torch==2.14.1
+transformers>=4.45,<5
